@@ -7,6 +7,12 @@ set path+=**
 " Syntax highlighting
 syntax enable
 
+" Highlight search results
+set hlsearch
+
+" I'm using black background, use proper color scheme
+set background=dark
+
 " Taskbar
 set ruler
 set showcmd
