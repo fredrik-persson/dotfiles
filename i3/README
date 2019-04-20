@@ -1,0 +1,10 @@
+Install by creating symlinks:
+
+mkdir ~/.i3
+cd ~/.i3
+ln -s <dotfiles repo>/i3/config
+
+
+cd ~
+ln -s <dotfiles repo>/i3/i3blocks.conf .i3blocks.conf
+ln -s <dotfiles repo>/i3/i3status.conf .i3status.conf
