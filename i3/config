@@ -179,6 +179,10 @@ bindsym $mod+Ctrl+l exec "i3lock -c 005088 -d 2"
 bindsym $mod+F7 exec "setxkbmap se; pkill -RTMIN+1 i3blocks;"
 bindsym $mod+F8 exec "setxkbmap us; pkill -RTMIN+1 i3blocks;"
 
+# Multiple monitor configuration
+bindsym $mod+F11 exec "xrandr --output DP1 --auto --right-of eDP1"
+bindsym $mod+F12 exec "xrandr --output DP1 --auto --same-as eDP1"
+
 # Screenshots using scrot
 # scrot & gimp - root
 bindsym Print exec scrot -e 'mv $f /tmp/ && gimp /tmp/$f'
